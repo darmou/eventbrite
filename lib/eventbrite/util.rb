@@ -4,7 +4,7 @@ module Eventbrite
       @object_classes ||= {
         events: Event,
         categories: Category,
-        ticket_classes: Eventbrite::TicketClass,
+        ticket_classes: TicketClass,
         attendees: Attendee,
         orders: Order,
         discounts: Discount,
